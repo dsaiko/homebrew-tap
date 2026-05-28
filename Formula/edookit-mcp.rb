@@ -5,21 +5,21 @@
 class EdookitMcp < Formula
   desc "Unofficial MCP connector for Edookit (Czech school information system)"
   homepage "https://github.com/dsaiko/edookit-mcp"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.8/edookit-mcp_0.1.8_Darwin_x86_64.tar.gz"
-      sha256 "4190cd478c0f21eb804276094ba9216791145082316efe8c96c0f341c70d7a72"
+      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.9/edookit-mcp_0.1.9_Darwin_x86_64.tar.gz"
+      sha256 "dbf74b4567412988b14c8f7076297eaa21d698dd78de1d56da154bb2de90dc26"
 
       define_method(:install) do
         bin.install "edookit-mcp"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.8/edookit-mcp_0.1.8_Darwin_arm64.tar.gz"
-      sha256 "94c921d07f03acf9744279353f273ff971edb623250bbcb734214928f4c1c175"
+      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.9/edookit-mcp_0.1.9_Darwin_arm64.tar.gz"
+      sha256 "f0d168391c76df197269e63b057d91c797333c905d5ecdfb71cfe66dcbf55264"
 
       define_method(:install) do
         bin.install "edookit-mcp"
@@ -29,15 +29,15 @@ class EdookitMcp < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.8/edookit-mcp_0.1.8_Linux_x86_64.tar.gz"
-      sha256 "c1781e22069197105ff4b53b527b62a46be9a849822bf4986a9c7aaa2f99c981"
+      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.9/edookit-mcp_0.1.9_Linux_x86_64.tar.gz"
+      sha256 "5559d0da6196ef822654ac0fe4d01a110400e86daaef64db845a85acadec44aa"
       define_method(:install) do
         bin.install "edookit-mcp"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.8/edookit-mcp_0.1.8_Linux_arm64.tar.gz"
-      sha256 "b1fa972a184a0d059e1817def15a422a74008c998bf12f36f152eb839ec5d590"
+      url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.1.9/edookit-mcp_0.1.9_Linux_arm64.tar.gz"
+      sha256 "4e6d3e9d220c0238985d2c3d9ecb937ebb382d5031d02466f3c416ca456c5d64"
       define_method(:install) do
         bin.install "edookit-mcp"
       end
