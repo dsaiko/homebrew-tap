@@ -18,6 +18,7 @@ brew install dsaiko/tap/<formula-name>
 ## Available formulas
 
 - [`edookit-mcp`](https://github.com/dsaiko/edookit-mcp) — Unofficial MCP connector for Edookit (Czech school information system)
+- [`edookit-mcp-rs`](https://github.com/dsaiko/edookit-mcp-rs) — Rust port of `edookit-mcp` (installs as the `edookit-mcp-rs` command; coexists with the Go build)
 
 ## License
 
