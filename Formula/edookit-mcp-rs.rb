@@ -1,16 +1,16 @@
 class EdookitMcpRs < Formula
   desc "Unofficial MCP connector for Edookit (Czech school information system) — Rust port"
   homepage "https://github.com/dsaiko/edookit-mcp-rs"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/dsaiko/edookit-mcp-rs/releases/download/v0.1.2/edookit-mcp_0.1.2_Darwin_arm64.tar.gz"
-    sha256 "1e8a448dc7a9dd604ffb3351c55e6c98d79a0fc404f88fef2ed69b2c0f177480"
+    url "https://github.com/dsaiko/edookit-mcp-rs/releases/download/v0.2.0/edookit-mcp_0.2.0_Darwin_arm64.tar.gz"
+    sha256 "75819f7b91c8a870079f9b6faebc2648e9c0dd7cfebc6d8e9647a2de9465f236"
   end
   on_intel do
-    url "https://github.com/dsaiko/edookit-mcp-rs/releases/download/v0.1.2/edookit-mcp_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "552b077ff2a67ea9608db90eec0ba53916d688d654928b9c4d197f0f81b1591b"
+    url "https://github.com/dsaiko/edookit-mcp-rs/releases/download/v0.2.0/edookit-mcp_0.2.0_Darwin_x86_64.tar.gz"
+    sha256 "5e9c16144b3d8a74f9ba265c4a25dc932e31aca1b41e5e2c3cfedf2f07785eb0"
   end
 
   def install
