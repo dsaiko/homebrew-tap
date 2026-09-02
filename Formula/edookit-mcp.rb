@@ -1,16 +1,16 @@
 class EdookitMcp < Formula
   desc "Unofficial MCP connector for Edookit (Czech school information system)"
   homepage "https://github.com/dsaiko/edookit-mcp"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.3.0/edookit-mcp_0.3.0_Darwin_arm64.tar.gz"
-    sha256 "160d70af2ea5c0822905adf4c48085929d68f2ecfd489a1decc5a66a354feff8"
+    url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.4.0/edookit-mcp_0.4.0_Darwin_arm64.tar.gz"
+    sha256 "a38b12cac3ac09c109ac60b55bc2cd27a176d98895b17e16464c92152319e06d"
   end
   on_intel do
-    url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.3.0/edookit-mcp_0.3.0_Darwin_x86_64.tar.gz"
-    sha256 "d25272d739e8644807b71fa1fee83856350f8819edf73ca9ad6f2e4bbcdca31f"
+    url "https://github.com/dsaiko/edookit-mcp/releases/download/v0.4.0/edookit-mcp_0.4.0_Darwin_x86_64.tar.gz"
+    sha256 "80a751d13f99821cf066d1dd4036782de6dcdf2902a606e5e54fb4cdb96c3817"
   end
 
   def install
